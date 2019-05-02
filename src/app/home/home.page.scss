@@ -1,0 +1,46 @@
+@import '../home/font.scss';
+ion-content{
+    --ion-background-color: #292826;
+}
+ion-card{
+    margin-top: 68px;
+    background-color: #f9d342;
+    border-radius: 12px;
+}
+h1{
+    color: #292826;
+    font-weight: 700;
+    border-bottom: 50px;
+}
+ion-label{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+ion-chip{
+    margin-top: 90px;
+    margin-left: 75px;
+    color: #f9d342;
+    background-color: #292826;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sign-in-button{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 110px;
+    background-color: #f9d342;
+    color: #292826;
+}
+.engBtn{
+    --background: #f9d342;
+    --color: #292826;
+    --border-color: #292826;
+    --border-radius: 10px;
+}
+.custBtn{
+    --color: #f9d342;
+    --background: #292826;
+    --border-color: #f9d342;
+    --border-radius: 10px;
+}

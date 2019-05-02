@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-icon (click)="onClick()" slot="start" name="arrow-round-back">
+      </ion-icon>
+      <ion-title>Customer Sign In</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card>
+      <ion-card-header><h1>Log In</h1></ion-card-header>
+        <ion-item>
+          <ion-label position="floating">
+            <ion-icon slot="start" name="contact"></ion-icon>
+            Email
+          </ion-label>
+          <ion-input autofocus="true" type="email" inputmode="email"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="floating">
+              <ion-icon slot="start" name="key" mode="md"></ion-icon>
+              Password
+            </ion-label>
+            <ion-input type="password" inputmode="password" minlength=6 maxlength=12></ion-input>
+        </ion-item>
+    </ion-card>
+  
+    <ion-button fill="outline" (click)="onClick()">
+      Sign In
+    </ion-button>
+  </ion-content>
+  
