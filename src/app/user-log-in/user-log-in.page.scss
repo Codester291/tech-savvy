@@ -1,4 +1,4 @@
-@import '../technician-sign-up/font.scss';
+@import '../user-log-in/font.scss';
 ion-content {
     --background:  #f9d342;
 }
@@ -20,17 +20,17 @@ ion-item {
     --border-color: #292826;
     --border-style: solid;
 }
+.signBtn {
+    --background: #f9d342;
+    --color: #292826;
+    margin-left: 35px;
+    margin-right: 20px;
+    --border-color: #292826;
+}
 .signInBtn {
     --background: #292826;
     --color: #f9d342;
     margin-left: 85px;
-    --border-color: #f9d342;
-}
-.signBtn {
-    --background: #292826;
-    --color: #f9d342;
-    margin-left: 35px;
-    margin-right: 20px;
     --border-color: #f9d342;
 }
 h1{

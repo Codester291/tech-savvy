@@ -11,7 +11,7 @@ export class TechnicianJoinPage implements OnInit {
   constructor(private router: Router) { }
 
   onClick() {
-    this.router.navigate(['technician-sign-up']);
+    this.router.navigate(['technician-log-in']);
   }
 
   ngOnInit() {

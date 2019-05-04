@@ -2,7 +2,7 @@
     <ion-toolbar>
       <ion-icon (click)="onClick()" slot="start" name="arrow-round-back">
       </ion-icon>
-      <ion-title>Customer Sign In</ion-title>
+      <ion-title>Technician Sign In</ion-title>
     </ion-toolbar>
   </ion-header>
   <ion-content>
@@ -24,8 +24,11 @@
         </ion-item>
     </ion-card>
   
-    <ion-button fill="outline" (click)="onClick()">
+    <ion-button class="signInBtn" fill="outline" (click)="about()">
       Sign In
+    </ion-button>
+    <ion-button class="signBtn" fill="outline" (click)="signUp()">
+      Sign Up
     </ion-button>
   </ion-content>
   

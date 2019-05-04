@@ -1,0 +1,38 @@
+@import '../technician-log-in/font.scss';
+ion-content {
+    --background:  #f9d342;
+}
+ion-toolbar{
+    --background: #292826;
+}
+ion-title{
+    font-family: 'Poppins';
+    --color: #f9d342;
+}
+ion-card {
+    --background: #292826;
+    --color: #f9d342;
+    margin-top: 120px; 
+    border-radius: 18px;
+}
+ion-item {
+    --background: #f9d342;
+    --border-color: #292826;
+    --border-style: solid;
+}
+.signBtn {
+    --background: #f9d342;
+    --color: #292826;
+    margin-left: 35px;
+    margin-right: 20px;
+    --border-color: #292826;
+}
+.signInBtn {
+    --background: #292826;
+    --color: #f9d342;
+    margin-left: 85px;
+    --border-color: #f9d342;
+}
+h1{
+    font-family: 'Poppins';
+}

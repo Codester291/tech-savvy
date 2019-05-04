@@ -11,10 +11,11 @@ h1{
     color: #292826;
     font-weight: 700;
     border-bottom: 50px;
+    font-family: 'Poppins';
 }
 ion-label{
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 600;
 }
 
 ion-chip{
@@ -23,10 +24,11 @@ ion-chip{
     color: #f9d342;
     background-color: #292826;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins';
 }
 .sign-in-button{
     font-size: 20px;
+    font-family: 'Poppins';
     margin-top: 60px;
     margin-left: 110px;
     background-color: #f9d342;
@@ -37,10 +39,14 @@ ion-chip{
     --color: #292826;
     --border-color: #292826;
     --border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 .custBtn{
     --color: #f9d342;
     --background: #292826;
     --border-color: #f9d342;
     --border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
