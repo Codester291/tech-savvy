@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-icon (click)="onClick()" slot="start" name="arrow-round-back">
+
+      </ion-icon>
+    <ion-title>Technician Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>Sign Up</h1>
+  <ion-item class="techName">
+      
+    <ion-label position="floating">
+          <ion-icon slot="start" name="contact"></ion-icon>
+          Technician Name
+        </ion-label>
+        <ion-input type="email" inputmode="email"></ion-input>
+      </ion-item>
+      <ion-item class="compName">
+          <ion-label position="floating">
+            <ion-icon slot="start" name="home" mode="md"></ion-icon>
+            Company Name
+          </ion-label>
+          <ion-input type="text" inputmode="password" minlength=6 maxlength=12></ion-input>
+      </ion-item>
+      <ion-item class="email">
+          <ion-label position="floating">
+            <ion-icon slot="start" name="contact"></ion-icon>
+            Email
+          </ion-label>
+          <ion-input  type="email" inputmode="email"></ion-input>
+        </ion-item>
+      <ion-item class="pwd">
+            <ion-label position="floating">
+              <ion-icon slot="start" name="key" mode="md"></ion-icon>
+              Password
+            </ion-label>
+            <ion-input type="password" inputmode="password" minlength=6 maxlength=12></ion-input>
+      </ion-item>
+
+      <ion-button class="signInBtn" fill="outline" (click)="about()">
+          Sign In
+      </ion-button>
+
+</ion-content>

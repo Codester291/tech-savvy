@@ -13,8 +13,9 @@ export class TechnicianSignUpPage implements OnInit {
   onClick(){
     this.router.navigate(['home']);
   }
-  about() {
-    this.router.navigate(['http://google.com']);
+  
+  signUp(){
+    this.router.navigate(['technician-join']);
   }
 
   ngOnInit() {

@@ -1,5 +1,9 @@
+@import '../technician-sign-up/font.scss';
 ion-content {
     --background:  #f9d342;
+}
+ion-title{
+    font-family: 'Poppins';
 }
 ion-card {
     --background: #292826;
@@ -12,10 +16,19 @@ ion-item {
     --border-color: #292826;
     --border-style: solid;
 }
-ion-button {
+.signInBtn {
     --background: #292826;
     --color: #f9d342;
-    margin-left: 135px;
+    margin-left: 85px;
+    --border-color: #f9d342;
+}
+.signBtn {
+    --background: #292826;
+    --color: #f9d342;
+    margin-left: 35px;
     margin-right: 20px;
     --border-color: #f9d342;
+}
+h1{
+    font-family: 'Poppins';
 }
