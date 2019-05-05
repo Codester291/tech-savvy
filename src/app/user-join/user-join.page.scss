@@ -1,0 +1,51 @@
+@import '../user-join/font.scss';
+ion-content {
+    --background: #292826;
+}
+ion-toolbar{
+    --background: #292826;
+}
+ion-title{
+    font-family: 'Poppins';
+    --color: #f9d342;
+}
+.techName {
+    --background: #f9d342;
+    --color:  #292826;
+    --border-color: #292826;
+    --border-style: solid;
+}
+.compName {
+    --background: #292826;
+    --color: #f9d342;
+    --border-color: #f9d342;
+    --border-style: solid;
+}
+.email {
+    --background: #f9d342;
+    --color:  #292826;
+    --border-color: #292826;
+    --border-style: solid;
+}
+.pwd {
+    --background: #292826;
+    --color: #f9d342;
+    --border-color: #f9d342;
+    --border-style: solid;
+}
+ion-label {
+    font-family: 'Poppins';
+}
+h1 {
+    color: #f9d342;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+.signInBtn {
+    --background: #292826;
+    --color: #f9d342;
+    margin-top: 40px;
+    margin-left: 135px;
+    --border-color: #f9d342;
+}
